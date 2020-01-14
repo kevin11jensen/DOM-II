@@ -83,3 +83,18 @@ const aa = document.querySelector('.text-content');
 aa.addEventListener('mousedown', () => {
     aa.style.backgroundColor = 'orange';
 })
+
+
+
+letsGoP.addEventListener('mousemove', (event) => {
+  letsGoP.style.backgroundColor = "pink";
+  
+  event.stopPropagation();
+})
+
+const stopLink = document.querySelector('.nav-link');
+
+stopLink.addEventListener('click', (event) => {
+  event.preventDefault();
+  
+})
