@@ -1,3 +1,4 @@
+//nav
 const mainNav = document.querySelector('.main-navigation')
 
 mainNav.addEventListener('mouseenter', () => {
@@ -14,10 +15,20 @@ links.forEach(link => {
     })
 })
 
-
+//header
 const busImg = document.querySelector('img')
 
 busImg.addEventListener('mouseover', () => {
     busImg.style.transform = 'scale(1.1)'
     busImg.style.transition = 'all .5s'
+})
+
+
+//buttons
+const btns = document.querySelectorAll('.btn')
+// console.log(btns)
+btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        btn.style.backgroundColor = 'blue'
+    })
 })
