@@ -15,7 +15,7 @@ links.forEach(link => {
     })
 })
 
-//header
+//header img
 const busImg = document.querySelector('img')
 
 busImg.addEventListener('mouseover', () => {
@@ -23,6 +23,20 @@ busImg.addEventListener('mouseover', () => {
     busImg.style.transition = 'all .5s'
 })
 
+//header text
+const headText = document.querySelector('.intro p')
+// console.log(headText)
+headText.addEventListener('dblclick', () => {
+    headText.style.backgroundColor = 'dodgerblue'
+})
+
+//content section
+const conImg = document.querySelector('.img-content')
+// console.log(conImg)
+conImg.addEventListener('wheel', () => {
+    conImg.style.transform = 'scale(1.1)'
+    conImg.style.transition = 'all .5s'
+})
 
 //buttons
 const btns = document.querySelectorAll('.btn')
