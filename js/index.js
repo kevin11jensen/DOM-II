@@ -32,3 +32,11 @@ btns.forEach(btn => {
         btn.style.backgroundColor = 'blue'
     })
 })
+
+//footer
+const footer = document.querySelector('.footer p')
+
+footer.addEventListener('mouseleave', () => {
+    footer.style.backgroundColor = 'black'
+    footer.style.color = 'white'
+})
