@@ -11,7 +11,7 @@ funBus.addEventListener('mouseenter', (event) => { event.target.style.borderBott
 funBus.addEventListener('mouseleave', (event) => { event.target.style.borderBottom = 'none'; });
 
 //scale transform on mouse enter
-funBus.addEventListener('mouseenter', ( )=> {
+funBus.addEventListener('mouseenter', ()=> {
     funBus.style.transform = 'scale(1.2)';
     funBus.style.transition = 'transform 1s';
   })
