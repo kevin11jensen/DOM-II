@@ -7,7 +7,7 @@
 const funBus = document.querySelector('header div h1');
 
 //bottom border on mouse enter and mouseleave 2 total unique
-funBus.addEventListener('mouseenter', (event) => {    event.target.style.borderBottom = '1rem solid blue'; });
+funBus.addEventListener('mouseenter', (event) => { event.target.style.borderBottom = '1rem solid blue'; });
 funBus.addEventListener('mouseleave', (event) => { event.target.style.borderBottom = 'none'; });
 
 //scale transform on mouse enter
